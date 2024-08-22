@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaEdit, FaInfoCircle, FaRegBell, FaTrashAlt } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
-import Pagination from "./pagination_pasien.jsx";
+import Pagination from "../../../components/pagination_pasien.jsx";
 import dummyData from "../data_sources/dummy_data.jsx";
 
 
@@ -14,7 +14,7 @@ export default function TablePasien() {
     const indexOfFirstItem = indexOfLastItem - itemsPerPage;
     const currentItems = dummyData.slice(indexOfFirstItem, indexOfLastItem);
 
-    const paginate = (pageNumber) => setCurrentPage(pageNumber);
+    const   paginate = (pageNumber) => setCurrentPage(pageNumber);
 
     const handleDetailClick = (id) => {
         navigate(`/pasien/detail/${id}`);

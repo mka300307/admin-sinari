@@ -1,7 +1,7 @@
 import Sidebar from "../../components/sidebar.jsx";
 import Navbar from "../../components/navbar.jsx";
 import TablePasien from "./components/table_pasien.jsx";
-import Pagination from "./components/pagination_pasien.jsx";
+import Pagination from "../../components/pagination_pasien.jsx";
 
 
 export default function PasienPage() {

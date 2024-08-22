@@ -1,6 +1,7 @@
 import Sidebar from "../../components/sidebar.jsx";
 import Navbar from "../../components/navbar.jsx";
 import TableKluster from "./components/table_kluster.jsx";
+import {FaFilter} from "react-icons/fa";
 
 export default function KlusterPage() {
     return (

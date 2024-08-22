@@ -1,7 +1,7 @@
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import DashboardPage from "./features/dashboard_page/dashboard.jsx";
 import PasienPage from "./features/pasien_page/pasien.jsx";
-import SkriningPage from "./features/skrining.jsx";
+import SkriningPage from "./features/skrining_page/skrining.jsx";
 import KlusterPage from "./features/kluster_page/kluster.jsx";
 import AddPasienPage from "./features/pasien_page/add_pasien.jsx";
 import DetailPasien from "./features/pasien_page/detail_pasien.jsx";
