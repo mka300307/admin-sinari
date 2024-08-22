@@ -1,7 +1,7 @@
 const dummyData = [
     {
         id: 1,
-        image: 'https://via.placeholder.com/100', // Placeholder image URL
+        image: 'https://via.placeholder.com/100',
         namaDokter: 'Dr. Amelia Wijaya',
         namaKluster: 'Kluster A',
         jamOperasional: '08:00 - 16:00'
